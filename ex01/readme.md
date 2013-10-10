@@ -54,7 +54,7 @@ Above, each kind of content is kept in a seperate tag. We do this so that we can
 
 Opening it, you should get something like this : 
 
-![Awesome 90's page](https://github.com/lizTheDeveloper/HTML_Hackbright/blob/master/ex01/awesome_90s.png "awesome 90's page")
+![Awesome 90's page](https://raw.github.com/lizTheDeveloper/HTML_Hackbright/master/ex01/awesome_90s.png "awesome 90's page")
 
 Alright, so that's pretty much all the HTML you'd need to know. If you were content to stay in 1990. 
 
@@ -233,4 +233,4 @@ So. Now that you know how to ~~take care of cats~~ use HTML, I want you to make 
 
 It should look like this. Go.
 
-![Liz's profile](https://github.com/lizTheDeveloper/HTML_Hackbright/blob/master/ex01/awesome_profile.png "Best profile page ever")
+![Liz's profile](https://raw.github.com/lizTheDeveloper/HTML_Hackbright/master/ex01/awesome_profile.png "Best profile page ever")
