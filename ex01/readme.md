@@ -109,7 +109,7 @@ h1 {
 
 Our page is now much nicer, and you know how to style things. 
 
-### Section 4 - In Which We Try To Organize Cats
+### Section 4 - In Which We Identify Cats
 
 I mentioned before that you could align things differently, not just vertically. Let's talk about how that happens. 
 
@@ -139,4 +139,97 @@ Now we can refer to our cats individually within our style tag. The way we do th
 ```
 
 You'll notice one of the cats now has an awesome blue border! This is great. Now we know which one is which (we knew who ms von cuten was because it was obvious but the other two were hard to tell).  
+
+### Section 5 - In Which We Try To Make Things Look Nice
+Alright, so we've got some cats - let's try to line them up. Unfortunately, cats (and most other things) don't line up real easily. So, we're going to have to pull a schroödinger and put these cats in some boxes. 
+
+Put your cat and the corresponding label for the cat into a useful, multi-purpose box called a `div`. (Don't forget the tabs)
+```
+<div>
+    <img src="http://placekitten.com/300/300" id="ms_von_cuten">
+    <p>Ms Von Cuten</p>
+</div>
+```
+Do this for each cat, and don't forget to close the box (or the cat will get out).
+
+Now that we've got the cats in boxes, we're going to line up the boxes. But rather than adding a name to each box, why don't we just line up all of the boxes in the same way? To do this, we're going to add a _class_ to the boxes.
+
+```
+<div class="catbox">
+    <img src="http://placekitten.com/300/300" id="ms_von_cuten">
+    <p>Ms Von Cuten</p>
+</div>
+```
+
+And now we can refer to all of the boxes at once, and line them all up.
+
+```
+.catbox {
+    float:left;
+}
+```
+
+OH MY GOD look at those cats. All in their own little box, all lined up. Beautiful.  
+Unfortunately, cats don't like to be all crushed up against each other- let's give them some room, shall we?
+
+```
+.catbox {
+    float:left;
+    padding: 10px 10px 10px 10px;
+}
+```
+
+Great. Here's what my page ended up looking like, so you can compare.
+```
+<html>
+    <head>
+        <title>
+            My page
+        </title>
+        <style>
+            h1 {
+                font-family: arial;
+                color: #000088;
+                background-color: rgba(200,255,200,0.5);
+            }
+            #mr_snuggles {
+                border: solid blue 10px;
+            }
+            .catbox {
+                float:left;
+                padding: 10px 10px 10px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>
+            This is a header - the biggest one
+        </h1>
+        <p> 
+            This is a paragraph
+        </p>
+        <ul>
+            <li>This is a list item</li>
+            <li>And here is another</li>
+            <li>Fish</li>
+        </ul>
+        <div class="catbox">
+            <img src="http://placekitten.com/300/300" id="ms_von_cuten">
+            <p>Ms Von Cuten</p>
+        </div>
+        <div class="catbox">
+            <img src="http://placekitten.com/200/400" id="mr_snuggles">
+            <p>Mister Snuggles </p>
+        </div>
+        <div class="catbox">
+            <img src="http://placekitten.com/300/500" id="professor_buttonsworth">
+            <p>Professor Buttonsworth</p>
+        </div>
+    </body>
+</html>
+```
+
+So. Now that you know how to ~~take care of cats~~ use HTML, I want you to make an AWESOME PROFILE PAGE. 
+
+It should look like this. Go.
 
