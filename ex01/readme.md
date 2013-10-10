@@ -16,7 +16,7 @@ All of the HTML for a page is contained within a box called, you guessed it, `<h
 ```
 <html>
     <head>
-	</head>
+    </head>
 	<body>
 	</body>
 </html>
@@ -228,9 +228,37 @@ Great. Here's what my page ended up looking like, so you can compare.
     </body>
 </html>
 ```
-
+### Section 6 - In Which We Lose Our Step-By-Step Directions
 So. Now that you know how to ~~take care of cats~~ use HTML, I want you to make an AWESOME PROFILE PAGE. 
 
-It should look like this. Go.
+It should look like this:
 
 ![Liz's profile](https://raw.github.com/lizTheDeveloper/HTML_Hackbright/master/ex01/awesome_profile.png "Best profile page ever")
+
+You might be wondering, how the hell do I do that? It goes something like this:
+
+
+1. Find an awesome space background somewhere. Save it to the same folder your exercise goes in.
+2. Get yourself an [embeddable widget on twitter](https://dev.twitter.com/docs/embedded-timelines). Embed the widget.
+3. [Set the background](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image) of your `body` tag to point to your awesome space background.
+3. Create some boxes for your content to go in (divs). Put the content in the boxes.
+4. Give the boxes a class. 
+5. Tell the classes to line up next to each other (float: left;).
+6. Some of your boxes need to be stacked - maybe they should go in a bigger box?
+7. Tell some of your boxes that their backgrounds need to be less boring (background-color:rgba(r,g,b,a);)
+Continue to consult the documentation on how [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) work.
+
+One thing I didn't discuss was the contact form on the right.
+
+### Section 7 - In Which We Care About Feedback From Others For Some Reason
+
+Forms are great. They're what let us collect information from the user. Take a look at this example:
+```
+<form action="/some_webpage" method="GET">
+    Name: <input type="text" name="user_name">
+    Email: <input type="text" name="user_email">
+    Hometown: <input type="text" name="user_hometown">
+    Do you like bunnies?: Yes <input type="radio" name="user_bunny_preference" value="yes"> No<input type="radio" name="user_bunny_preference" value="no">
+</form>
+```
+This form will send the information collected to a webserver, as marked in it's "action" property. Take a spin through [this basic forms tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form?redirectlocale=en-US&redirectslug=HTML%2FForms%2FMy_first_HTML_form), if you feel you need help. Make sure to add a contact form to your portfolio page, and then you're done.
