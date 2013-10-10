@@ -1,7 +1,7 @@
 # HTML
 
 ### Section 0 - In Which We Introduce Tags  
-You have probably run into HTML before if you've ever used the internet. You've seen paragraph tags - `<p>`, or you've run into `<span>` or `<div>`. You've probably used  
+You have probably run into HTML before if you've ever used the INTERNET. You've seen paragraph tags - `<p>`, or you've run into `<span>` or `<div>`. You've probably used  
 ```
 <a href="http://theprofoundprogrammer.com/post/29546648842/text-xml-photograph-of-a-series-of-needlessly">Click here</a>
 ```  
@@ -50,7 +50,7 @@ This is what's known as a page. Usually though, your page will have more HTML th
 It might take awhile to get used to reading a document like that - let's point some things out.  
 First, we're using 4 spaces to indent, and we indent every time we open something. This is a best practice that helps you read the HTML. It's _very important_ that you keep to this convention, it's designed to help you keep track of where everything is.
 
-Above, each kind of content is kept in a seperate tag. We do this so that we can manipulate and change each item seperately. Copy-paste the above example into a file, save it as `demo.html`, then open it in Google Chrome.
+Above, each kind of content is kept in a separate tag. We do this so that we can manipulate and change each item separately. Copy-paste the above example into a file, save it as `demo.html`, then open it in Google Chrome.
 
 Opening it, you should get something like this : 
 
@@ -98,7 +98,7 @@ h1 {
 Let's go ahead and add that rule to our `<style>` tag (indent once), and reload the page. 
 Looks much better, right?
 
-Probably want to add some other styles, like color. Colors in CSS are expressed in several ways, either by using a hex RGB value - `#ff00ff`, or like this - `rgba(200,200,200,0.5)`. The "a" in "rgba" refers to _alpha_, which is nerd for "transparancy". 
+Probably want to add some other styles, like color. Colors in CSS are expressed in several ways, either by using a hex RGB value - `#ff00ff`, or like this - `rgba(200,200,200,0.5)`. The "a" in "rgba" refers to _alpha_, which is nerd for "transparency". 
 ```
 h1 {
     font-family: arial;
