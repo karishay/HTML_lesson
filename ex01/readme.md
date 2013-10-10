@@ -228,6 +228,7 @@ Great. Here's what my page ended up looking like, so you can compare.
     </body>
 </html>
 ```
+![example](https://raw.github.com/lizTheDeveloper/HTML_Hackbright/master/ex01/cats.png)
 ### Section 6 - In Which We Lose Our Step-By-Step Directions
 So. Now that you know how to ~~take care of cats~~ use HTML, I want you to make an AWESOME PROFILE PAGE. 
 
