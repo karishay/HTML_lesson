@@ -1,0 +1,84 @@
+<HTML>
+    <link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+    <style>
+    body {
+        background-image: url('/home/user/src/HTML_Hackbright/space.jpg');
+
+    }
+    div#profile {
+        background-color: rgba(147, 222, 255, .5);
+        font-family: 'Gabriela', serif;
+        color: #574070;
+        padding: 20px;
+        width: 600px;
+        float:left;
+        border-radius: 40px 10px;
+
+    }
+    div#twitter{
+        float: left;
+        margin-right: 10px;
+        width: 300px;
+    }
+    div#projects{
+        float: left;
+        margin-top: 15px;
+        width: 350px;
+        font-family: 'Gabriela', serif;
+        background-color: rgba(176, 159, 255, .5);
+        border-radius: 10px 40px;
+        padding: 10px;
+        color:#574070;
+    }
+    div#form{
+        width: 200px;
+        padding: 10px;
+        font-family: 'Gabriela', serif;
+        color:#574070;
+        float: left;
+        background-color:rgba(176, 159, 255, .5);
+        border-radius: 100px;
+        text-align: center;
+        margin: 10px;
+    }
+    div.sheet:hover{
+        border: 10px solid #B09FFF;
+    }
+    </style>
+    <body>
+        <div id="twitter" class="sheet">
+        <a class="twitter-timeline" href="https://twitter.com/PsalmsofCartman" data-widget-id="438039046921543680">Tweets by @PsalmsofCartman</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+        </script>
+        </div>
+        <div id="profile" class="sheet">
+            <h1>@PsalmsofCartman</h1>
+            <p>I like jesus and stuff. Sometimes vulgar things are cool. And cheesy-poofs are holy.
+            </p>
+        </div>
+        <div id="projects" class="sheet">
+            <h2>MAH PROJECTS:</h2>
+            <ul>
+                <li>This is a list item, bro.</li>
+                <li>Here kitty, kitty.</li>
+                <li>Saving the world. And shit.</li>
+            </ul>
+        </div>
+        <div id="form">
+            <form action="http://www.wwwdotcom.com/" method="get">
+                Name: <br><input type="text" name="user_name"><br>
+                Email: <br><input type="text" name="user_email"><br>
+                Hometown: <br><input type="text" name="user_hometown"><br>
+                Do you like cheesy-poofs?: <br>Yes<input type="radio" name="user_cheesy_poof_preference" value="yes"> No<input type="radio" name="user_cheesy_poof_prefence" value="no"><br>
+            <div class="button">
+                <button type="submit">I <3 Cheesy Poofs</button>
+            </div>
+            </form>
+
+        </div>
+
+
+
+
+    </body>
+</HTML>
